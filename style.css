@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #d56767;
 }
 
 header, footer {
@@ -25,7 +26,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA6062;
+    
 }
 
 header {
@@ -50,8 +51,8 @@ main {
 
 .background-logo {
     position: absolute;
-    width: 100%;
-    max-height: 100%;
+    width: 80%;
+    max-height: 90%;
     margin: auto;
     top: 0;
     left: 0;
@@ -70,8 +71,10 @@ main {
 }
 
 .content-image {
-    height: 85vh;
+    height: 75vh;
+    filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.9));  
 }
+
 footer {
     height: 100px;
     display: flex;
